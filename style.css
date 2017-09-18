@@ -1,0 +1,93 @@
+/* MAIN */
+body {
+    font-size: 20px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-family: Helvetica;
+    background-color:#eaece5;
+    color:#3b3a30;
+}
+
+p{
+    max-width: 800px;
+    margin: 5px;
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+}
+
+section{
+    position: relative;
+    overflow: hidden;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* CLASSES */
+.pig-quote{
+    display: inline-block;
+    padding-left: 20;
+    color: #c83349;
+    background-color: #f7cac9;
+
+}
+.wolf-quote{
+    display: inline-block;
+    margin-left: 20;
+    color: #4f3222;
+    background-color: #dac292;
+}
+
+.image-div{
+    float: left;
+}
+
+.story-div{
+    margin-left: 340px;
+    position: absolute;           
+    top: 50%;                         
+    transform: translate(0, -50%);
+    vertical-align: middle;
+}
+
+.header-div{
+    margin: 20px;
+}
+
+.story-text{
+    font-weight: bold;
+}
+
+/* IMAGES */
+.story-image{
+    
+      display: block;
+      margin: 10px;
+      max-width: 300px;
+      border: 1px solid black;
+      -webkit-border-radius: 10%;
+      -moz-border-radius:10%;
+      border-radius: 10%;
+}
+
+.pig-icon{
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    max-width: 25px;
+}
+
+.wolf-icon{
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    max-width: 25px;
+} 
